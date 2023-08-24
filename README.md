@@ -19,27 +19,34 @@ Malaysia is done by an authorised pharmaceutical company.
 Assume that all these vaccines have been approved by the Malaysian government and the
 above-mentioned pharmaceutical company needs a Vaccine Inventory Management
 System to allow its employees to carry out the following:
+
 1. Inventory Creation. The system should provide a feature for the employees to
 permanently record vaccine details shown in Table 1 into a text file named as
 vaccine.txt. Initial quantity of each vaccine (in millions) also needs to be recorded in
 this file.
+
 Note: Initial quantity of vaccine is to be decided by the programmer. The records in the
 vaccine.txt file should be available every time the program is executed.
+
 2. Update vaccine quantities. The system should allow the employees to select a
 particular vaccine and indicate either received or distributed quantity. In either case, the
 quantity of the selected vaccine needs to be updated accordingly in the vaccine.txt file.
+
 E.g. Assume that the initial quantity of Pfizer vaccine in vaccine.txt file is 1 million.
 When the company receives a new stock, this quantity has to be added to the existing
 quantity of 1 million in the vaccine.txt file. In the case where the vaccines are distributed
 to hospitals for vaccination, the distributed quantity is subtracted from the quantity
 available in the vaccine.txt file.
+
 Note: Whenever a vaccine is distributed to hospitals, its code and the quantity
 distributed need to be recorded into a text file named as dist.txt. Each vaccine is
 expected to be distributed more than once. Hence, while testing the program, there
 should be at least 10 records created in the dist.txt file.
+
 3. Search vaccine and its available quantity by using vaccine code. The system should
 have a feature for employees to query a particular vaccine’s existing quantity from the
 vaccine.txt file using vaccine code.
+
 4. Produce a list of all vaccines and their distributed quantities. The system should allow
 the employees to list all distributed vaccines and their accumulated quantities read from
 the dist.txt file.
